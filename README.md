@@ -7,7 +7,7 @@ This is a simple Todos App that was created to show how can we add full CRUD (Cr
 >Note:
 > In this YouTube Video we go over the steps together.
 >If you're looking to learn more about NextJS, check out this [YouTube Link](https://youtu.be/lfenDlOFycw?si=UCyJBg8vNlOhmOBM).
->Create **AI Projects** with **NextJS** and ****OpenAI** [FREE on YouTube](https://youtu.be/SaKVX8vzzZc?si=KJkkCpijNVjHhivu).
+>Create **AI Projects** with **NextJS** and **OpenAI** [FREE on YouTube](https://youtu.be/SaKVX8vzzZc?si=KJkkCpijNVjHhivu).
 
 
 ## Getting Started
