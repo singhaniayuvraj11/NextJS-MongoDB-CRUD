@@ -1,26 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS & MongoDB CRUD | Todos App
+
+## Description
+
+This is a simple Todos App that was created to show how can we add full CRUD (Create, Read, Update and Delete) functionality to your NextJS Apps.
+
+>Note:
+> In this YouTube Video we go over the steps together.
+>If you're looking to learn more about NextJS, check out this [YouTube Link](https://youtu.be/lfenDlOFycw?si=UCyJBg8vNlOhmOBM).
+>Create **AI Projects** with **NextJS** and ****OpenAI** [FREE on YouTube](https://youtu.be/SaKVX8vzzZc?si=KJkkCpijNVjHhivu).
+
 
 ## Getting Started
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+First, fork and clone this repo:
+
+    1. From your terminal or GitBash navigate to your Desktop.
+
+    2. On this page click on Code (green button) and copy the HTTPS url.
+
+    3. Back on your terminal run: `git clone <PASTE_URL_HERE>`, and press enter.
+
+    4. Change directory into your new project folder and run: ` npm i` 
+
+Second, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 ## Learn More
+
+Useful MongoDB Links:
+
+- [Atlas Connection Example](https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#atlas-connection-example)
+
+- [CRUD Operations](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/#crud-operations)
+
+- [NodeJS Driver](https://mongodb.github.io/node-mongodb-native/6.8/classes/MongoClient.html)
+
 
 To learn more about Next.js, take a look at the following resources:
 
