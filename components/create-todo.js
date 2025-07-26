@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { createTodo } from "@/actions";
 
 export default function CreateTodo() {
   const [text, setText] = useState("");
@@ -7,7 +8,7 @@ export default function CreateTodo() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log("creating todo...");
+      createTodo(text);
       setText("");
     } catch (e) {
       console.log(e);

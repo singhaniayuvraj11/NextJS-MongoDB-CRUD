@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { deleteTodo , updateTodo} from "@/actions";
 
 export default function Todo({ text, id }) {
   const [showUpdateInput, setShowUpdateInput] = useState(false);
@@ -7,14 +8,14 @@ export default function Todo({ text, id }) {
 
   const handleUpdate = (e) => {
     e.preventDefault();
-    console.log(`Updating todo: ${id}`);
+    updateTodo(id,newText)
     setShowUpdateInput(!showUpdateInput);
   };
 
   return (
     <div className="border rounded p-5 flex justify-between items-center min-w-96 mt-5 min-h-24">
       {/* TODO TEXT  */}
-      <div>{text}</div>
+      {!showUpdateInput && <div>{text}</div>}
 
       {/* UPDATE TODO INPUT  */}
       {showUpdateInput && (
@@ -37,7 +38,7 @@ export default function Todo({ text, id }) {
           </button>
         ) : (
           <button
-            onClick={() => console.log(`Deleting todo: ${id}`)}
+            onClick={() => deleteTodo(id)}
             className="hover:border hover:rounded p-1"
           >
             DELETE
